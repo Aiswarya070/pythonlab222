@@ -1,0 +1,11 @@
+dic={
+    "bob":23,
+    "charlie":36,
+    "alice":72,
+    "emy":18,
+    "david":19,
+    }
+s=sorted(dic.items())
+print(s)
+s1=sorted(dic.items(),reverse=True)
+print(s1)
